@@ -51,6 +51,8 @@ else:
   
   #if statement for draw
   if user_choice == computer_choice:
+    print(choice[user_choice])
+    print(choice[computer_choice])
     print("It's a draw")
   else:
     #if statement for win, else == lose
